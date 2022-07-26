@@ -9,6 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
     <style>
+        /* Element Selector */
+        p {
+            border: 3px solid red;
+        }
+
+        /* Identity Selector */
         #firstPara {
             color: blue;
         }
@@ -18,8 +24,14 @@
             color: red;
         }
 
+        /* Class Selector */
         .bgBlack {
             background-color: Black;
+        }
+
+        /* Grouping Selector */
+        footer, span {
+            background-color: pink;
         }
     </style>
 </head>
@@ -30,7 +42,9 @@
     <p id="secondPara" class="redElement bgBlack">This is a another paragraph to demonstrate CSS Selectors</p>
     <div>
         <p>This is yet another paragraph inside div to demonstrate CSS Selectors</p>
+        <span>This is span</span>
     </div>
+    <footer>This is footer</footer>
 </body>
 
 </html>
