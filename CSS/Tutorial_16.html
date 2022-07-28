@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* Universal Selector */
+        * {
+            box-sizing: border-box;
+            /* This won't allow padding to change width */
+            margin: 0px;
+            padding: 0px;
+            /* We can overwrite margin and padding values */
+        }
+
+        body {
+            background-color: #98f0f0;
+        }
+
+        .container {
+            background-color: rgb(186, 218, 233);
+            border: 3px solid rgb(25, 0, 255);
+            /* padding: 9px;  */
+            /* We can also do padding-left, padding-right padding-top, padding-bottom */
+
+            margin: 15px;
+            /* We can also do margin-left, margin-right margin-top, margin-bottom */
+
+            /* padding: top right bottom left; */
+            /* padding: 24px 12px 36px 18px; */
+
+            /* padding: top/bottom left/right; */
+            padding: 24px 18px;
+
+            border-radius: 6px;
+            width: 520px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Heading</h3>
+        <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur incidunt mollitia ad
+            voluptatem temporibus tenetur dicta distinctio neque placeat ratione! Labore amet minima culpa odit quos
+            sint quam, iusto, blanditiis sapiente tenetur eos. Magni, totam illo?</p>
+    </div>
+
+    <div class="container">
+        <h3>Heading</h3>
+        <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur incidunt mollitia ad
+            voluptatem temporibus tenetur dicta distinctio neque placeat ratione! Labore amet minima culpa odit quos
+            sint quam, iusto, blanditiis sapiente tenetur eos. Magni, totam illo?</p>
+    </div>
+
+    <div class="container">
+        <h3>Heading</h3>
+        <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur incidunt mollitia ad
+            voluptatem temporibus tenetur dicta distinctio neque placeat ratione! Labore amet minima culpa odit quos
+            sint quam, iusto, blanditiis sapiente tenetur eos. Magni, totam illo?</p>
+    </div>
+</body>
+
+</html>
