@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo Selectors & More Designing</title>
     <style>
-        .container{
+        .container {
             border: 4px solid red;
             background-color: antiquewhite;
             padding: 24px;
             margin: 34px auto;
             width: 694px
         }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: black;
+            background-color: rgb(23, 111, 253);
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:active {
+            background-color: yellow;
+        }
+
+        .btn {
+            font-weight: bold;
+            background-color: rgb(255, 60, 0);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 3px;
+        }
+
+        .btn:hover {
+            color: black;
+            background-color: rgb(23, 111, 253);
+            border: 2px solid black;
+        }
+
+        .btn:active {
+            background-color: yellow;
+        }
     </style>
 </head>
+
 <body>
     <div id="cont1" class="container">
         <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat 
-            praesentium cumque quasi explicabo minus possimus corporis nostrum tempore 
-            eaque fugit rerum ipsum impedit, amet molestias nisi earum corrupti quisquam! 
-            Voluptates nulla omnis minus obcaecati eius.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat praesentium cumque quasi explicabo
+            minus possimus corporis nostrum tempore eaque fugit rerum ipsum impedit, amet molestias nisi earum corrupti
+            quisquam! Voluptates nulla omnis minus obcaecati eius.</p>
+        <a href="https://facebook.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
     </div>
 </body>
+
 </html>
