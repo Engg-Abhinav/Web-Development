@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Display Property</title>
     <style>
+        header{
+            margin: auto;
+            width: 20%;
+        }
         img{
-            width: 160px;
-            padding-left: 480px;
+            margin: auto;
+            display: block;
+            width: 110%;
         }
         h2{
-            float: right;
-            padding-right: 465px;
-            padding-top: 1px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            width: 110%;
         }
     </style>
 </head>
 <body>
+    <!-- Header is block element -->
+    <!-- Image has inline display that's why we blocked it -->
     <header class="top">
-        <img src="https://images.unsplash.com/photo-1584441405886-bc91be61e56a?ixlib=
-                  rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1584441405886-bc91be61e56a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80" alt="">
         <h2>Welcome to My Blog</h2>
     </header>
 </body>
