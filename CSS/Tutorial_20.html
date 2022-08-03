@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Display Property</title>
     <style>
-        header{
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
             margin: auto;
             width: 20%;
         }
-        img{
+
+        img {
             margin: auto;
             display: block;
             width: 110%;
         }
-        h2{
+
+        h2 {
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0px;
             width: 110%;
         }
+
+        .box {
+            border: 4px solid gray;
+            background-color: antiquewhite;
+            margin: 16px;
+            padding: 24px;
+            width: 30%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .container {
+            margin: auto;
+            width: 100%;
+        }
     </style>
 </head>
+
 <body>
     <!-- Header is block element -->
     <!-- Image has inline display that's why we blocked it -->
     <header class="top">
-        <img src="https://images.unsplash.com/photo-1584441405886-bc91be61e56a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1584441405886-bc91be61e56a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80"
+            alt="">
         <h2>Welcome to My Blog</h2>
     </header>
+    <div class="container">
+        <div class="box">
+            <h3 class="heading">About</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vel vero amet suscipit ex numquam
+                assumenda magnam dolor veritatis alias quod eligendi non, est natus, cumque quaerat, quae aperiam rem
+                dolorem dolorum nobis perferendis? Ex veniam a porro similique exercitationem doloremque sapiente fugit
+                recusandae at nisi cum quis possimus tenetur optio voluptatem totam voluptate nobis assumenda, tempore
+                laborum veritatis ratione dolor officiis consectetur? Beatae, maiores hic ad soluta quam laborum
+                blanditiis error cupiditate harum dolorum nostrum dolor inventore! Enim, porro consequuntur quae odio
+                assumenda eaque nihil rerum beatae id sed veritatis autem quaerat vitae nisi earum non incidunt! Dolorem
+                blanditiis doloribus quae alias deserunt corrupti distinctio numquam nemo omnis quos praesentium quam,
+                iusto impedit, itaque cupiditate aut esse explicabo ducimus? Dolorem eum rerum aliquid ipsam asperiores
+                aperiam repudiandae illo vel natus doloribus, nemo necessitatibus accusantium, ex esse maxime sed
+                impedit placeat quas ut. Repudiandae!</p>
+        </div>
+        <div class="box">
+            <h3 class="heading">Charity</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi unde officiis odio obcaecati. Minima
+                corrupti eos corporis blanditiis amet vitae, qui rerum illo doloribus temporibus itaque, dolorem vel?
+                Repudiandae iusto nisi cumque deserunt laborum, natus quos pariatur soluta provident labore illo vitae
+                obcaecati quasi quae dolorem impedit recusandae explicabo placeat numquam. Molestias, dicta reiciendis.
+                Dolorum voluptates nulla maiores eligendi vel facere, sapiente perferendis commodi fugit, officia earum
+                exercitationem quasi libero, atque quibusdam animi rem beatae deleniti officiis. Hic laboriosam ea
+                asperiores soluta repellat qui, nesciunt eius libero ex consectetur facilis quasi maxime nostrum in iure
+                mollitia itaque, quod atque dolorum adipisci, cum omnis. Eveniet nulla doloremque repudiandae mollitia,
+                laboriosam accusamus ad facilis officia ipsum, eligendi numquam eum cumque enim beatae, praesentium
+                distinctio? Aliquam laboriosam ratione pariatur et, deleniti sint libero illum quam veniam placeat ea
+                sunt, aspernatur soluta iusto eveniet itaque architecto nulla? Maxime.</p>
+        </div>
+        <div class="box">
+            <h3 class="heading">Funding</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptate error hic quos magni
+                doloremque, eveniet, ipsam ipsum incidunt eligendi dolor consectetur eius dolore animi vero iusto atque
+                natus, provident minus doloribus reprehenderit nam autem optio. Eligendi, nesciunt reiciendis saepe
+                necessitatibus libero architecto nulla perspiciatis, maxime dolor vel explicabo, expedita deleniti
+                officiis cum dolore at numquam repellat minus? Cumque accusantium facere, numquam quo illo dolore hic
+                sapiente, repudiandae ad nesciunt fugiat mollitia totam accusamus placeat autem aliquam sint. Sit
+                aperiam corporis quod vel adipisci sed saepe minima esse natus possimus exercitationem veritatis numquam
+                illum dignissimos amet quis ullam repellendus odio, animi blanditiis officia provident! Natus culpa
+                totam placeat reiciendis voluptates debitis numquam iure asperiores ratione perspiciatis accusantium
+                minus aut neque aspernatur, dolor iusto adipisci similique nemo, nisi sint dolore ea dolorum. Recusandae
+                nisi omnis in et veritatis dolorum vitae, ducimus, at magnam, corrupti neque!</p>
+        </div>
+    </div>
 </body>
+
 </html>
