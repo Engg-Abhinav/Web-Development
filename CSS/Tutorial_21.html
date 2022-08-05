@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Positioning</title>
+    <title>Postioning</title>
+    <style>
+        /* Position: static (default), absolute, relative, fixed, sticky */
+        .box{
+            border: 4px solid gray;
+            width: 150px;
+            height: 150px;
+            margin: 6px;
+            display: inline-block;
+        }
+        #box3{
+            /* relative: relative to it's original position and will leave gap at it's original position */
+            /* position: relative; */
+
+            /* absolute: relative to it's parent position */
+            position: absolute;
+
+            top: 36px;
+            left: 36px;
+
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
 </body>
 </html>
