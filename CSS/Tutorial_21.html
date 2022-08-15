@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,49 @@
     <title>Postioning</title>
     <style>
         /* Position: static (default), absolute, relative, fixed, sticky */
-        .box{
+        .container {
+            background-color: antiquewhite;
+            height: 4080px;
+        }
+
+        .box {
             border: 4px solid gray;
             width: 150px;
             height: 150px;
             margin: 6px;
             display: inline-block;
         }
-        #box3{
-            /* relative: relative to it's original position and will leave gap at it's original position */
+
+        #box4 {
+            /* relative: Positions the element relative to it's original position and will leave gap at it's original position */
             /* position: relative; */
 
-            /* absolute: relative to it's parent position */
-            position: absolute;
+            /* absolute: Positions the element relative to it's parent position */
+            /* position: absolute; */
 
-            top: 36px;
-            left: 36px;
+            /* top: 36px;
+            left: 36px; */
+
+            /* fixed: Positions the element relative to the browser window */
+            /* position: fixed; */
+            /* right: 4px;
+            bottom: 3px; */
+
+
+            position: sticky;
+            top: 3px;
 
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="box" id="box1">1</div>
         <div class="box" id="box2">2</div>
         <div class="box" id="box3">3</div>
-        <div class="box" id="box4">4</div>
+        <div class="box" id="box4">Chat with us.</div>
     </div>
 </body>
+
 </html>
