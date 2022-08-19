@@ -1,4 +1,4 @@
-/* Internal Vs External Css: The Css which is written is last takes the precedence */
+/* Internal Vs External Css: The Css which is written in last takes the precedence */
 /* To make a use of CSS without precedence, we use !important (type before ;) */
 
 p{
