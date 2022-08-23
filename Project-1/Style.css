@@ -13,7 +13,7 @@ body{
     position: absolute;
     left: 36px;
     top: 30px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .left img{
@@ -25,7 +25,7 @@ body{
     display: block;
     width: 55%;
     margin: 18px auto;
-    border: 3px solid antiquewhite;
+    /* border: 3px solid antiquewhite; */
 }
 
 .right{
@@ -33,7 +33,7 @@ body{
     position: absolute;
     right: 36px;
     top: 28px;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
 }
 
 .navbar{
@@ -56,6 +56,10 @@ body{
     color: aliceblue;
 }
 
+.head{
+    background-color: rgb(27 27 27);
+}
+
 .btn{
     font-family: 'Baloo Bhai 2', cursive;
     margin: 0px 18px;
@@ -73,8 +77,8 @@ body{
 }
 
 .container{
-    border: 3px solid blue;
-    margin: 120px 120px;
+    border: 3px solid antiquewhite;
+    margin: 90px 120px;
     padding: 50px 50px;
     width: 36%;
     border-radius: 4px;
