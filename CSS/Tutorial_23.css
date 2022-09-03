@@ -1,1 +1,56 @@
-css
+.container{
+    width: 100%;
+    height: 540px;
+    border: 3px solid black;
+    display: flex;
+
+    /* By default flex direction is set to row */
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-direction: row-reverse; */
+
+    /* By default flex wrap is set to nowrap */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex flow can set both direction and wraping */
+    /* flex-flow: row-reverse wrap; */
+
+    /* justify content will justify the content in horizontal direction */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+    /* align items will justify the content in vertical direction */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    align-items: flex-start;
+    /* align-items: stretch; */
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    border: 2px solid paleturquoise;
+    margin: 9px;
+    padding: 4px;
+}
+
+#item-1{
+    /* Flex properties for a flex item */
+    /* Higher the order,  later it shows up in the container */
+    order: 2;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+#item-2{
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+
+#item-3{
+    order: 40;
+}
