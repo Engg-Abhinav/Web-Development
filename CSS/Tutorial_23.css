@@ -41,16 +41,26 @@
 #item-1{
     /* Flex properties for a flex item */
     /* Higher the order,  later it shows up in the container */
-    order: 2;
-    flex-grow: 2;
-    flex-shrink: 2;
+    order: 1;
+    /* flex-grow: 2;
+    flex-shrink: 2; */
 }
 
 #item-2{
-    flex-grow: 3;
-    flex-shrink: 3;
+    /* flex-grow: 3;
+    flex-shrink: 3; */
+    order: 2;
+    flex-basis: 240px;
+    /* When flex direction is set to row then flex basis control width */
+    /* When flex direction is set to column then flex basis control height */
+
 }
 
 #item-3{
     order: 40;
+    flex: 2 2 320px;
+    /* flex grow flex shrink flex basis */
+    /* align-self: flex-start; */
+    align-self: flex-end;
+    /* align-self: center; */
 }
