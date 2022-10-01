@@ -7,6 +7,6 @@ h1{
 }
 
 #first{
-    font-size: 3em;
+    font-size: 3e;
     /* 3 em means 3 times font-size of parent container */
 }
