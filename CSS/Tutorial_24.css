@@ -1,5 +1,14 @@
+html{
+    font-size: 25px;
+}
+
 .container{
     font-size: 10px;
+    /* width: 400px; */
+    width: 100vw;
+    /* height: 400px; */
+    height: 100vh;
+    border: 6px solid antiquewhite;
 }
 
 h1{
@@ -7,6 +16,16 @@ h1{
 }
 
 #first{
-    font-size: 3em;
+    /* font-size: 3em;
+    padding: 3em; */
     /* 3 em means 3 times font-size of parent container */
 }
+
+#second{
+    /* font-size: 3rem;
+    padding: 3rem; */
+    /* 3 rem means 2 times font-size of base html */
+}
+
+/* vh = viewport hieght */
+/* vw = viewport width */
