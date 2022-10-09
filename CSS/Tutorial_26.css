@@ -1,1 +1,25 @@
-!
+h1{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+}
+
+div p{
+    color: yellow;
+    font: bold;
+    background-color: gray;
+}
+
+/* property for direct p inside div only */
+div > p{
+    color: antiquewhite;
+    font: bold;
+    background-color: brown;
+}
+
+/* property for p who's previous sibling is div */
+div + p{
+    color: pink;
+    font: bold;
+    background-color: black;
+}
