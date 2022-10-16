@@ -13,3 +13,35 @@ input[type='text']{
     padding: 18px;
     border: 4px solid red;
 }
+
+input[type='email']{
+    padding: 13px;
+    border: 4px solid black;
+}
+
+a[target]{
+    font-size: 46px;
+    color: purple;
+}
+
+a[target='_self']{
+    font-size: 46px;
+    color: orange;
+}
+
+/* Apply CSS for 9th child */
+li:nth-child(9){
+    color: cyan;
+}
+
+li:nth-child(3n+1){
+    color: blue;
+}
+
+li:nth-child(odd){
+    background-color: yellow;
+}
+
+li:nth-child(even){
+    background-color: green;
+}
