@@ -1,49 +1,35 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-header::before{
-    background: url('https://source.unsplash.com/collection/190727') no-repeat center center/cover;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.3;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Pseudo Selectors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="Tutorial_28.css">
 
-.navigator{
-    display: flex;
-    font-size: 24px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigator">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to coding World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi provident enim ipsam ex facere, maxime
+            pariatur possimus iste, repudiandae quo ipsa eos modi sed nisi laborum cum aspernatur incidunt ullam
+            corporis molestiae dicta cumque! Voluptatem quis, facilis placeat recusandae necessitatibus delectus
+            amet odit dolor nobis. Corrupti officiis nihil iste neque aut adipisci, magni sed repellat eligendi rem
+            dolorum facere recusandae ullam nostrum laudantium! Vel!</p>
+    </section>
+    <hr>
+</body>
 
-li{
-    list-style: none;
-    padding: 15px 24px;
-}
-
-section{
-    height: 500px;
-    /* border: 4px solid red; */
-    margin: 4px 24px;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-/* section::before{
-    content: "This is content for section before";
-} */
-
-h1{
-    font-size: 4rem;
-}
+</html>
