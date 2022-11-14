@@ -1,1 +1,17 @@
-!
+.container{
+    display: flex;
+}
+
+.card{
+    padding: 24px 13px;
+    margin: 24px 13px;
+    /* border: 4px solid red; */
+    background-color: antiquewhite;
+    /* box-shadow: 10px 13px bisque; */
+    /* box-shadow:-10px -13px bisque; */
+    /* box-shadow:-10px -13px 10px bisque; */
+    box-shadow: -10px -13px 10px 36px bisque;
+    /* box-shadow: (offset x) (offset y) (blur radius) (spread radius); */
+
+    /* In rgba, a stands for alpha and is use to make the colour dark */
+}
