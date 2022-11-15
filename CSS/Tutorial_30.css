@@ -1,1 +1,29 @@
+:root{
+    --primary-color: bisque;
+    --secondary-color: antiquewhite;
+    --maxw: 540px;
+}
+/* :root helps to globally decalre the variable which means
+   we can use these variables in every class */
 
+.box{
+    height: 200px;
+    width: 300px;
+    margin: 4px 9px;
+    /* Variables */
+    /* --box-color: antiquewhite; */
+    
+    background-color: var(--primary-color);
+    border: 4px solid burlywood;
+    box-shadow: 10px 13px var(--primary-color);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: var(--maxw);
+    margin: auto;
+    /* --box-color: antiquewhite; */
+    background-color: var(--secondary-color);
+}
