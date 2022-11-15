@@ -14,4 +14,11 @@
     /* box-shadow: (offset x) (offset y) (blur radius) (spread radius); */
 
     /* In rgba, a stands for alpha and is use to make the colour dark */
+    box-shadow: inset 10px 13px bisque;
+    box-shadow: 6px 9px beige, 10px 13px bisque;
+}
+
+.card h2{
+    /* text-shadow: 2px 1px azure; */
+    text-shadow: 2px 1px 1px azure;
 }
