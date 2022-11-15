@@ -1,1 +1,24 @@
-!
+body{
+    background-color: black;
+}
+
+#box{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    /* transition-property: background-color;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+
+    /* Shorthand Property */
+    /* transition: background-color transition-duration transition-timing-function transition-delay; */
+    transition: background-color 3s ease-in-out 3s;
+}
+
+#box:hover{
+    background-color: burlywood
+}
