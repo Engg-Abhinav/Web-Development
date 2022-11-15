@@ -1,8 +1,8 @@
-body{
+body {
     background-color: black;
 }
 
-#box{
+#box {
     height: 250px;
     width: 250px;
     display: flex;
@@ -16,9 +16,17 @@ body{
 
     /* Shorthand Property */
     /* transition: background-color transition-duration transition-timing-function transition-delay; */
-    transition: background-color 3s ease-in-out 3s;
+    /* transition: background-color 4s ease-in-out 2s; */
+
+    transition: all 2s ease-in-out .3s;
 }
 
-#box:hover{
-    background-color: burlywood
+#box:hover {
+    background-color: burlywood;
+    width: 500px;
+    height: 500px;
+    border-radius: 6px;
+    font-size: 24px;
 }
+
+/* Binary properties can't be used for transitions */
