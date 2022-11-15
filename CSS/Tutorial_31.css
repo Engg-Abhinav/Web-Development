@@ -1,1 +1,59 @@
-!
+.container {
+    background-color: antiquewhite;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    position: relative;
+    /* animation-name: Abhinav1; */
+    /* animation-name: Abhinav2; */
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+
+    /* animation-fill-mode: forwards; */
+    /* Helps to apply properties in to{} so that it won't go back to default */
+
+    /* animation-timing-function: ease-in-out; */
+
+    /* animation-delay: 3s; */
+
+    /* animation-direction: reverse; */
+
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+
+    animation: Abhinav 4s ease-in-out 1s 12 backwards;
+}
+
+@keyframes Abhinav2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 250px;
+        left: 0px;
+    }
+
+    75% {
+        top: 250px;
+        left: 250px;
+    }
+
+    100% {
+        top: 0px;
+        left: 250px;
+    }
+}
+
+@keyframes Abhinav {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 400px;
+    }
+}
