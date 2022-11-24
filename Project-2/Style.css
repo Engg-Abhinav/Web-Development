@@ -13,17 +13,50 @@
 #navbar{
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+#navbar::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1; /* It will send our content on forescreen and send background to backscreen */
+    opacity: 0.72;
 }
 
 /* Navigation Bar: Logo and Image */
 #logo{
-    margin: 36px 46px;
+    margin: 6px 18px;
 }
 
 #logo img{
-    height: 64px;
-    margin: 36px 46px;
+    height: 84px;
+    margin: 0px 0px;
 }
 
 /* Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+}
 
+#navbar ul li{
+    /* color: antiquewhite; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    /* We did display block(by default it's inline) as we are going to give padding */
+    padding: 3px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
