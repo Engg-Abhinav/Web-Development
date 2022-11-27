@@ -60,3 +60,38 @@
     color: black;
     background-color: white;
 }
+
+/* Home Section */
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.home::before{
+    content: " ";
+    background: url('Images/Bkg2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1; /* It will send our content on forescreen and send background to backscreen */
+    opacity: 0.84;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.btn{
+
+}
