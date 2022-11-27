@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #navbar::before{
@@ -78,20 +79,36 @@
     height: 100%;
     width: 100%;
     z-index: -1; /* It will send our content on forescreen and send background to backscreen */
-    opacity: 0.84;
+    opacity: 0.99;
 }
 
-#home h1{
+.home h1{
     color: white;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.home p{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Utility Classes */
 .h-primary{
-    font-size: 2.8rem;
+    font-size: 3.8rem;
+    /* rem is relavtive to root html */
     padding: 12px;
 }
 
 .btn{
-
+    padding: 6px 24px;
+    border: 2px solid white;
+    background-color: #484848;
+    border-radius: 4px;
+    color: white;
+    margin: 18px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
