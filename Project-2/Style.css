@@ -9,18 +9,23 @@
     --navbar-height: 64px;
 }
 
-/* Navigation Bar */s
+/* Navigation Bar */
 #navbar{
     display: flex;
     align-items: center;
     position: relative;
+    /* position: absolute; */
+    /* making it absolute will make the navbar transparent according to the background image */
     font-family: 'Roboto Condensed', sans-serif;
+    top: 0px;
 }
 
 #navbar::before{
     content: " ";
     background-color: black;
     position: absolute;
+    top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
     z-index: -1; /* It will send our content on forescreen and send background to backscreen */
@@ -69,21 +74,25 @@
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 150px;
 }
 
 .home::before{
     content: " ";
     background: url('Images/Bkg2.jpg') no-repeat center center/cover;
     position: absolute;
-    height: 100%;
+    top: 0px;
+    left: 0px;
+    height: 50%;
     width: 100%;
-    z-index: -1; /* It will send our content on forescreen and send background to backscreen */
+    z-index: -1; 
+    /* It will send our content on forescreen and send background to backscreen */
     opacity: 0.99;
 }
 
 .home h1{
     color: white;
+    margin: 60px 0px 0px 0px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -95,10 +104,44 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.services-container{
+    margin: 110px;
+}
+
+/* Services Section */
+#services{
+    margin: 0px;
+    display: flex;
+
+}
+
+#services .box{
+    border: 2px solid red;
+    padding: 36px;
+    height: 100%;
+    margin: 3px 6px;
+    border-radius: 6px;
+    background-color: #fff2e2;
+}
+
+#services .box img{
+    height: 200px;
+    display: block;
+    margin: auto;
+    /* margin auto will when display is block */
+}
+
+
+
 /* Utility Classes */
 .h-primary{
     font-size: 3.8rem;
     /* rem is relavtive to root html */
+    padding: 12px;
+}
+
+.h-secondary{
+    font-size: 2.8rem;
     padding: 12px;
 }
 
@@ -111,4 +154,8 @@
     margin: 18px;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.center{
+    text-align: center;
 }
