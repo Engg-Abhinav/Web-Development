@@ -131,17 +131,51 @@
     /* margin auto will when display is block */
 }
 
+#services .box p{
+    font-family: 'Oswald', sans-serif;
+}
 
+/* Client Section */
+#client-section{
+    
+}
+
+#client-section::before{
+    content: " ";
+    position: absolute;
+    background: url('Images/Bkg5.jpg');
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-item{
+    margin: 24px 18px;
+    padding: 27px;
+}
+
+.client-item img{
+    height: 100px;
+}
 
 /* Utility Classes */
 .h-primary{
+    font-family: 'Oswald', sans-serif;
     font-size: 3.8rem;
     /* rem is relavtive to root html */
     padding: 12px;
 }
 
 .h-secondary{
-    font-size: 2.8rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4rem;
     padding: 12px;
 }
 
