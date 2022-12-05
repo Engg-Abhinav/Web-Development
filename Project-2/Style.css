@@ -29,7 +29,7 @@
     height: 100%;
     width: 100%;
     z-index: -1; /* It will send our content on forescreen and send background to backscreen */
-    opacity: 0.72;
+    opacity: 1;
 }
 
 /* Navigation Bar: Logo and Image */
@@ -83,7 +83,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 50%;
+    height: 380px;
     width: 100%;
     z-index: -1; 
     /* It will send our content on forescreen and send background to backscreen */
@@ -137,7 +137,7 @@
 
 /* Client Section */
 #client-section{
-    
+    margin: 0px;
 }
 
 #client-section::before{
@@ -145,9 +145,9 @@
     position: absolute;
     background: url('Images/Bkg5.jpg');
     width: 100%;
-    height: 50%;
+    height: 380px;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 #clients{
