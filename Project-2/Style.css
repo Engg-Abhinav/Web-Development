@@ -119,7 +119,7 @@
     border: 2px solid red;
     padding: 36px;
     height: 100%;
-    margin: 3px 6px;
+    margin: 3px 27px;
     border-radius: 6px;
     background-color: #fff2e2;
 }
@@ -145,7 +145,7 @@
     position: absolute;
     background: url('Images/Bkg5.jpg');
     width: 100%;
-    height: 380px;
+    height: 336px;
     z-index: -1;
     opacity: 0.3;
 }
@@ -163,6 +163,50 @@
 
 .client-item img{
     height: 100px;
+}
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+    background: url('Images/Bkg3.jpg') no-repeat center center/cover;
+}
+
+#contact-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 360px;
+}
+
+#contact-item form{
+    width: 36%;
+}
+
+#contact-item label{
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+#contact-item input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+}
+
+footer{
+    background: grey;
+    color: antiquewhite;
+    padding: 9px 18px;
 }
 
 /* Utility Classes */
