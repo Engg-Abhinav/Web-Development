@@ -1,3 +1,25 @@
-body{
-  background-color: red;
+/* Navigation */
+
+
+/* Home */
+#home{
+
 }
+
+/* Services */
+#services{
+    flex-direction: column;
+}
+
+#services.box{
+
+}
+
+/* Clients */
+
+
+/* Contact Us */
+
+
+/* Footer */
+
