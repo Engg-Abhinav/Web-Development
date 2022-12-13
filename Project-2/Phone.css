@@ -1,9 +1,15 @@
 /* Navigation */
-
+#navbar{
+    flex-direction: column;
+}
 
 /* Home */
 #home{
+    height: 100px;
+}
 
+#home::before{
+    height: 100px;
 }
 
 /* Services */
