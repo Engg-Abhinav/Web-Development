@@ -2,7 +2,9 @@
     display: grid;
     /* grid-template-columns: 300px 200px 100px; */
     /* grid-template-columns: 300px auto 100px; */
-    grid-template-columns: 1fr 4fr 1fr;
+    /* grid-template-columns: 1fr 4fr 1fr; */
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 2rem;
 }
 
 .item{
@@ -10,5 +12,5 @@
     width: 100px; */
     background-color: antiquewhite;
     border: 2px solid burlywood;
-    margin: 4px;
+    padding: 15px 6px;
 }
