@@ -1,2 +1,14 @@
 .container{
-    displa
+    display: grid;
+    /* grid-template-columns: 300px 200px 100px; */
+    /* grid-template-columns: 300px auto 100px; */
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.item{
+    /* height: 100px;
+    width: 100px; */
+    background-color: antiquewhite;
+    border: 2px solid burlywood;
+    margin: 4px;
+}
