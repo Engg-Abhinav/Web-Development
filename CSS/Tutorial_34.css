@@ -3,6 +3,7 @@
     /* grid-template-columns: 300px 200px 100px; */
     /* grid-template-columns: 300px auto 100px; */
     /* grid-template-columns: 1fr 4fr 1fr; */
+    /* check different view on commenting and un-commenting hieght and width */
     grid-template-columns: repeat(6, auto);
     grid-gap: 2rem;
 }
