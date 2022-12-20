@@ -1,1 +1,15 @@
-!
+.grid{
+    display: grid;
+    /* fr -> fraction */
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-auto-rows: 2fr;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 1rem;
+
+}
+
+.box{
+    background-color: antiquewhite;
+    border: 2px solid burlywood;
+}
