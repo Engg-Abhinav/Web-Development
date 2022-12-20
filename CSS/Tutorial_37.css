@@ -1,1 +1,16 @@
-!
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    /* grid-template-columns: 160px 160px 160px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* justify-content: center; */
+
+    /* grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(100px,200px));
+}
+
+.box{
+    background-color: antiquewhite;
+    border: 2px solid burlywood;
+    padding: 24px;
+}
