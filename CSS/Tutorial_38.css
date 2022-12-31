@@ -1,2 +1,9 @@
-!
-!
+.container{
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.item{
+    background-color: antiquewhite;
+    border: 3px solid burlywood;
+}
