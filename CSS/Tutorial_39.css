@@ -1,1 +1,101 @@
 !
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    'footer footer footer footer';
+}
+
+.item{
+    background-color: antiquewhite;
+    border: 3px solid burlywood;
+    padding: 13px 24px;
+}
+
+.border{
+    border: 2px solid black;
+    padding: 13px 24px;
+    background-color: burlywood;
+}
+
+@media only screen and (max-width: 300px){
+    body{
+        background-color: cyan;
+    }
+    .container{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    body{
+        background-color: blueviolet;
+    }
+    .container{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+    /* To remove 'More about us' */
+    aside{
+        display: none;
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px){
+    body{
+        background-color: goldenrod;
+    }
+    .container{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+}
+
+@media only screen and (min-width: 800px){
+    body{
+        background-color: greenyellow;
+    }
+}
+
+nav{
+    grid-area: navbar;
+}
+
+section{
+    grid-area: section;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
