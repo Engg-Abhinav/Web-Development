@@ -15,3 +15,23 @@ console.log(position);
 var substrg = str.substr(1,11);
 console.log(substrg);
 
+// var replaced = str.replace('string', 'Abhinav');
+// console.log(str);
+// console.log(replaced);
+
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// var newStr = str.concat(' New String')
+// console.log(newStr);
+// var strWithWhiteSpaces = "    This contains       whitespaces      ";
+// console.log(strWithWhiteSpaces);
+// console.log(strWithWhiteSpaces.trim());
+
+// var char2 = str.charAt(2);
+// var charCode2 = str.charCodeAt(2); // Not very important
+// console.log(char2);
+// console.log(charCode2);
+
+// Slicing of string
+console.log(str[3]);
