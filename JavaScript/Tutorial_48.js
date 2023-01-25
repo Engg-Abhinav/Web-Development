@@ -42,3 +42,4 @@ do{
     console.log(`${k} is less than 4 and we are inside do while loop`);
     k++;
 }while(k<5);
+;
