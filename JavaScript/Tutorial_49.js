@@ -1,6 +1,18 @@
+let para = document.getElementById('para');
+
+para.addEventListener('mouseover', function run(){
+    // alert('Mouse Inside')
+    console.log('Mouse Inside');
+});
+
+para.addEventListener('mouseout', function run(){
+    // alert('Mouse Outside')
+    console.log('Mouse Outside');
+});
+
 function toggleHide(){
-    btn = document.getElementById('btn');
-    para = document.getElementById('para');
+    // let btn = document.getElementById('btn');
+    // let para = document.getElementById('para');
     if(para.style.display!='none'){
         para.style.display = 'none';
     }
