@@ -25,4 +25,3 @@ function displayTime(){
     console.log(time);
     document.getElementById('time').innerHTML = time;
 }
-]
