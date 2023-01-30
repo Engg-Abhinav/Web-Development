@@ -1,1 +1,12 @@
-!
+.container{
+    font-size: 24px;;
+    background-color: bisque;
+    border: 2px solid burlywood;
+    padding: 36px;
+    margin: 4px;
+    text-align: center;
+}
+
+#time{
+    font-weight: bold;
+}
