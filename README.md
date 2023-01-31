@@ -1,2 +1,2 @@
 # Web-Development
-Full Stack Web Development
+Web Development
